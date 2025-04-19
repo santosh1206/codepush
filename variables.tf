@@ -1,6 +1,6 @@
 variable "resource_group_location" {
   type        = string
-  default     = "ind-central"
+  default     = "centralindia"
   description = "Location of the resource group."
 }
 
