@@ -25,7 +25,7 @@ resource "azurerm_subnet" "my_terraform_subnet_2" {
   name                 = "subnet-2"
   resource_group_name  = azurerm_resource_group.rg.name
   virtual_network_name = azurerm_virtual_network.my_terraform_network.name
-  address_prefixes     = ["172.16.1.0/27"]
+  address_prefixes     = ["172.16.0.32/27"]
 }
 
 resource "random_pet" "prefix" {
